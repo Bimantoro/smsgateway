@@ -1,0 +1,16 @@
+[gammu]
+device = COM6:
+connection = at115200
+
+[smsd]
+service = sql
+driver = odbc
+sql = mysql
+pc = koneksi_mysql
+PIN = 1234
+logfile = C:\xampp\htdocs\SMSPAT\SMS_SERVER\logs.txt
+phoneid = danangphone
+user = root
+password =
+database = db_sms
+
